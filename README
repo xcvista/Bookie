@@ -1,0 +1,48 @@
+
+Bookie README
+Version 0.2
+
+The Bookie app have special compiler, OS and requirements for now:
+
+1)  This project will only compile using clang 3.2, which comes with only Xcode
+    4.6 DP4. A paid Apple iOS Developer Program is required to download this. I
+    guarantee this project will build without even warnings, and will run smooth
+    on actual devices. Simulator is not tested and will never be, and Xcode 4.5
+    and older will not compile this project.
+    
+2)  This project is intended to run on devices with iOS 6.1 and up, certain
+    features may not be available on devices with older versions of iOS and the
+    minimum requirement is 6.0. The latest public version available as of Jan.
+    3, 2013 is iOS 6.0.1, and with a paid account, the latest developer build is
+    iOS 6.1 DP4, which is the intended target.
+    
+3)  The design of this app allows the book to be read online. This feature is
+    enforced in this demo version, and thus an Internet connection is required
+    to run this app on any device. Enforcing this feature allowed quicker tests
+    and easier demonstration, but may reduce demo effects.
+
+Q&A:
+
+1.  Where is the contents?
+A:  In this demo version, books are placed and read online, hence no data is
+    shipped with the app. I spent US$60 in a decent VPS server to make sure it
+    works fine. Local book management is implemented as well, but not enabled
+    for now.
+    To me, the ability to utilitize contents located over the Internet, and the
+    ablilty to distribute the application without initial data is a feature.
+    And if you open the app often enough, you can actually notice our progress,
+    as the updates are "pushed" from our server right to your device.
+
+2.  I did not see any dynamic contents in your app.
+A:  This demo app is intended to be a base of future parts. There are mechanisms
+    implemented in code to allow virtually any dynamic features to be added on
+    an per-app basis.
+
+3.  The contents in the book and the artwork mismatch.
+A:  This is intended, as the content now is temporarily borrowed from the final
+    product (We have two discreet teams, one working on technological gear,
+    another on contents.)
+
+Maxthon T. Chan <xcvista@me.com>
+Jan. 3, 2013
+Updated: Jan. 5, 2013

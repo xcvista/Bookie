@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BKType</key>
+	<string>BKImageGalleryViewController</string>
+	<key>BKImages</key>
+	<array>
+		<string>black-1.png</string>
+		<string>black-2.png</string>
+		<string>black-3.png</string>
+	</array>
+</dict>
+</plist>

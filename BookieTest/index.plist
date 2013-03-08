@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BKBookName</key>
+	<string>Bookie Demo Book</string>
+	<key>BKType</key>
+	<string>BKBook</string>
+	<key>BKBookOnline</key>
+	<true/>
+	<key>BKBookDownloadable</key>
+	<false/>
+	<key>BKBookChapters</key>
+	<array>
+		<string>toc/index.plist</string>
+		<string>color-matching/index.plist</string>
+	</array>
+	<key>BKBookPages</key>
+	<array>
+		<string>toc/title.html</string>
+		<string>toc/toc4.html</string>
+		<string>color-matching/1-coloring-tones.html</string>
+		<string>color-matching/2-easy-matches.html</string>
+		<string>color-matching/3-highlighting-colors.html</string>
+		<string>color-matching/4-stylish-designs.html</string>
+	</array>
+	<key>BKBookTOC</key>
+	<integer>0</integer>
+</dict>
+</plist>
